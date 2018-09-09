@@ -6,7 +6,28 @@
 
     <groupId>com.wdl.game</groupId>
     <artifactId>com.wdl.game</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>wolves-kill-game-core</module>
+        <module>wolves-kill-game-dao</module>
+        <module>wolves-kill-game-sample</module>
+        <module>wolves-kill-game-view</module>
+        <module>wolves-kill-game-console</module>
+    </modules>
 
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.4.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 </project>
