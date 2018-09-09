@@ -11,5 +11,12 @@
 
     <artifactId>wolves-kill-game-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.wdl.game</groupId>
+            <artifactId>wolves-kill-game-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

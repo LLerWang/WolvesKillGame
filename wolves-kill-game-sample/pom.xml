@@ -11,5 +11,17 @@
 
     <artifactId>wolves-kill-game-sample</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.wdl.game</groupId>
+            <artifactId>wolves-kill-game-view</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wdl.game</groupId>
+            <artifactId>wolves-kill-game-console</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
